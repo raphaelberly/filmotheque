@@ -1,0 +1,13 @@
+
+<p>This week's program:</p>
+
+{% for day in results %}
+
+    <p>
+        <b>{{day}}</b><br/>
+        {% for show in results[day] %}
+        {{ show['time'] }} | {{ show['title'] }} ({{ show['duration'] }})<br/>
+        {% endfor %}
+    </p>
+
+{% endfor %}
