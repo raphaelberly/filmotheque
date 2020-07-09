@@ -3,4 +3,5 @@
 __pycache__
 .ipynb_checkpoints
 
-credentials.yaml
+conf/credentials.yaml
+conf/mailer.yaml
